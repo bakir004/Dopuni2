@@ -1,6 +1,7 @@
 # Dopuni.ba
 
-Discovering the simplicity of Socket.io made me think of its use. The first thought was making a multiplayer game for me and my friends.
+Discovering the simplicity of Socket.io made me think of its use.
+The first thought was making a multiplayer game for me and my friends.
 
 ### Tech Stack
 
@@ -14,6 +15,10 @@ Database: -
 
 The players sit in a circle and are each given a combination of 2 or 3 letters. Their task is to come up with a Bosnian word that contains the given combination somewhere in the word. It's important to note that the user's word contains the letter combination as a substring. For example, if the given combination is "SLO", then the acceptable words (among others) are: "slovo", "poslodavac" or "maslo".
 Each player has a time limit inside which they must write the word. If they do not write the word on time, their turn will be skipped (in Survival mode they lose a life). Words that have already been written during the game cannot be re-used.
+
+Though a requirement for this project is a list of all possible Bosnian words, I knew that that was not possible.
+The best I could do at the time was just pulling all the words from a dictionary and leave out the noun cases and other word variations.
+After desperately trying to get access to the largest Bosnian dictionary at the time, I had to settle with a scanned dictionary I found online. The problem arose when the conversion from scanned .pdf to .txt started making mistakes and reading the special Bosnian characters as something else, so many words are missing from the game (which is the only reason I get yelled at when playing with friends).
 
 ### Gamemodes
 
