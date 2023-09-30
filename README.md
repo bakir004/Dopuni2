@@ -5,7 +5,9 @@ Discovering the simplicity of Socket.io made me think of its use. The first thou
 ### Tech Stack
 
 Frontend: React with TypeScript, TailwindCSS
+
 Backend: NodeJS, Socket.io
+
 Database: -
 
 ### Game Premise
